@@ -24,7 +24,7 @@ int write_char(buffer *buf, va_list v_ls)
  * @v_ls: the list of arguments to access
  * Return: No Value
  */
-
+int write_str(buffer *buf, va_list v_ls)
 {
 	int i;
 	char *v_temp = va_arg(v_ls, char *);
