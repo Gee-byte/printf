@@ -10,7 +10,7 @@
 int write_bin(buffer *buf, va_list v_ls)
 {
 	int i;
-	
+	unsigned int num = va_arg(v_ls, int);
 	char ar[100] = {'\0'};
 
 	i = 0;
