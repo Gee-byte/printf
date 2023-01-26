@@ -78,4 +78,3 @@ void buf_wr(buffer *buf)
 	buf->index = 0;
 	buf->str[0] = '\0';
 }
-
