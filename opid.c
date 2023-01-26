@@ -21,7 +21,7 @@ int opid(buffer *buf, va_list v_ls, const char *src, int src_i)
 		{NULL, NULL}
 	};
 
-	for (j = 1; src[j + src_i]; j++)
+	
 	{
 		for (k = 0; oArray[k].op; k++)
 		{
