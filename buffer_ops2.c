@@ -11,3 +11,4 @@ void buf_inc(buffer *buf)
 	buf->index++;
 	buf->overflow++;
 }
+
