@@ -29,7 +29,7 @@
  * @overflow: this recoreds the overflow.
  * @str: pointer to memory that contains the content for this buffer.
  */
-
+typedef struct print_buffer
 {
 	size_t index;
 	size_t size;
