@@ -42,5 +42,4 @@ int print_reverse(va_list types, char buffer[],
 		count++;
 	}
 	return (count);
-	
 }

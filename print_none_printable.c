@@ -38,5 +38,4 @@ int print_non_printable(va_list types, char buffer[],
 	buffer[i + offset] = '\0';
 
 	return (write(1, buffer, i + offset));
-	
 }
